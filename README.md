@@ -72,7 +72,7 @@ Spring Cloud를 이용한 MSA 기반 프로젝트 실습
 ### 주문 추가
 
 > ![](https://img.shields.io/static/v1?label=&message=POST&color=brightgreen) <br>
-> localhost:19091/**orders**
+> localhost:19091/**order**
 
 <details markdown="1">
 <summary>detail</summary>
@@ -97,7 +97,7 @@ Spring Cloud를 이용한 MSA 기반 프로젝트 실습
 ### 주문에 상품 추가
 
 > ![](https://img.shields.io/static/v1?label=&message=PUT&color=orange) <br>
-> localhost:19091/**orders/{orderId}**
+> localhost:19091/**order/{orderId}**
 
 <details markdown="1">
 <summary>detail</summary>
@@ -121,7 +121,7 @@ Spring Cloud를 이용한 MSA 기반 프로젝트 실습
 ### 주문 단건 조회
 
 > ![](https://img.shields.io/static/v1?label=&message=GET&color=blue) <br>
-> localhost:19091/**orders/{orderId}**
+> localhost:19091/**order/{orderId}**
 
 <details markdown="1">
 <summary>detail</summary>
