@@ -1,6 +1,7 @@
 spring:
   application:
 <<<<<<< HEAD
+<<<<<<< HEAD
     name: gateway-service
   main:
     web-application-type: reactive
@@ -31,21 +32,24 @@ eureka:
       defaultZone: http://localhost:19090/eureka/
 =======
     name: Gateway
+=======
+    name: gateway-service
+>>>>>>> 31ffbe2 (feat: 상품 추가, 조회, 주문 추가 전환)
   main:
     web-application-type: reactive
   cloud:
     gateway:
       routes:
-        - id: Order
-          uri: lb://Order
+        - id: order-service
+          uri: lb://order-service
           predicates:
             - Path=/order/**
-        - id: Product
-          uri: lb://Product
+        - id: product-service
+          uri: lb://product-service
           predicates:
             - Path=/products/**
-        - id: Auth
-          uri: lb://Auth
+        - id: auth-service
+          uri: lb://auth-service
           predicates:
             - Path=/auth/signIn
       discovery:

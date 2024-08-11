@@ -7,6 +7,9 @@ spring:
   jackson:
     property-naming-strategy: SNAKE_CASE
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 31ffbe2 (feat: 상품 추가, 조회, 주문 추가 전환)
   application:
     name: order-service
 
@@ -17,5 +20,8 @@ eureka:
       defaultZone: http://localhost:19090/eureka/
 server:
   port: 19092
+<<<<<<< HEAD
 =======
 >>>>>>> a6ea2fd (feat: 멀티 모듈 구성)
+=======
+>>>>>>> 31ffbe2 (feat: 상품 추가, 조회, 주문 추가 전환)

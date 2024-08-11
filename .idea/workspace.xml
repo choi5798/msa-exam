@@ -7,6 +7,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     <list default="true" id="eb9d0b3d-85a9-4b4e-9017-5dd2e3a1013f" name="Changes" comment="feat: 상품 서비스 응답 헤더 포트 정보 추가">
       <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__antlr_antlr_2_7_7.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__ch_qos_logback_logback_classic_1_5_6.xml" afterDir="false" />
@@ -263,19 +264,24 @@
     <list default="true" id="eb9d0b3d-85a9-4b4e-9017-5dd2e3a1013f" name="Changes" comment="feat: eureka 서버 구성">
 >>>>>>> d27549b (feat: 멀티모듈 설정 완료, eureka 서버 + 게이트웨이 구성 완료)
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+=======
+    <list default="true" id="eb9d0b3d-85a9-4b4e-9017-5dd2e3a1013f" name="Changes" comment="feat: 멀티모듈 설정 완료, eureka 서버 + 게이트웨이 구성 완료">
+      <change afterPath="$PROJECT_DIR$/Auth/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Order/src/main/java/com/sparta/msa_exam/order/ProductClient.java" afterDir="false" />
+>>>>>>> 31ffbe2 (feat: 상품 추가, 조회, 주문 추가 전환)
       <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Auth/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/Auth/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/EurekaServer/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/EurekaServer/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/EurekaServer/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/EurekaServer/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Auth/src/main/resources/application.properties" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Gateway/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/Gateway/build.gradle" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Gateway/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/Gateway/src/main/resources/application.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Order/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/Order/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Product/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/Product/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/settings.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Order/src/main/java/com/sparta/msa_exam/order/OrderApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/Order/src/main/java/com/sparta/msa_exam/order/OrderApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Order/src/main/java/com/sparta/msa_exam/order/OrderController.java" beforeDir="false" afterPath="$PROJECT_DIR$/Order/src/main/java/com/sparta/msa_exam/order/OrderController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Order/src/main/java/com/sparta/msa_exam/order/OrderService.java" beforeDir="false" afterPath="$PROJECT_DIR$/Order/src/main/java/com/sparta/msa_exam/order/OrderService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Order/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/Order/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Product/src/main/java/com/sparta/msa_exam/product/ProductController.java" beforeDir="false" afterPath="$PROJECT_DIR$/Product/src/main/java/com/sparta/msa_exam/product/ProductController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Product/src/main/java/com/sparta/msa_exam/product/ProductService.java" beforeDir="false" afterPath="$PROJECT_DIR$/Product/src/main/java/com/sparta/msa_exam/product/ProductService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Product/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/Product/src/main/resources/application.yml" afterDir="false" />
     </list>
 >>>>>>> 2ddeedc (feat: eureka 서버 구성)
     <option name="SHOW_DIALOG" value="false" />
@@ -327,6 +333,7 @@
         <option value="Record" />
         <option value="Interface" />
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -350,10 +357,17 @@
     &quot;accountId&quot;: &quot;7c35ee74-882f-47f6-9bea-4a22caedd252&quot;
   }
 }</component>
+<<<<<<< HEAD
   <component name="KubernetesApiPersistence">{}</component>
   <component name="KubernetesApiProvider">{
   &quot;isMigrated&quot;: true
 }</component>
+=======
+  <component name="KubernetesApiPersistence"><![CDATA[{}]]></component>
+  <component name="KubernetesApiProvider"><![CDATA[{
+  "isMigrated": true
+}]]></component>
+>>>>>>> 31ffbe2 (feat: 상품 추가, 조회, 주문 추가 전환)
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 2
 }</component>
@@ -379,6 +393,7 @@
     "Gradle.Build msa-exam.executor": "Run",
     "Gradle.msa-exam [dependencies].executor": "Run",
     "Gradle.msa-exam:Gateway [clean].executor": "Run",
+<<<<<<< HEAD
 =======
     "Gradle.Build msa-exam.executor": "Run",
 >>>>>>> 2ddeedc (feat: eureka 서버 구성)
@@ -387,6 +402,8 @@
     "Gradle.Build msa-exam.executor": "Run",
     "Gradle.msa-exam [dependencies].executor": "Run",
 >>>>>>> d27549b (feat: 멀티모듈 설정 완료, eureka 서버 + 게이트웨이 구성 완료)
+=======
+>>>>>>> 31ffbe2 (feat: 상품 추가, 조회, 주문 추가 전환)
     "RequestMappingsPanelOrder0": "0",
     "RequestMappingsPanelOrder1": "1",
     "RequestMappingsPanelWidth0": "75",
@@ -408,9 +425,13 @@
 =======
 =======
     "Spring Boot.EurekaServerApplication.executor": "Run",
+    "Spring Boot.GatewayApplication (1).executor": "Run",
     "Spring Boot.GatewayApplication.executor": "Run",
 >>>>>>> d27549b (feat: 멀티모듈 설정 완료, eureka 서버 + 게이트웨이 구성 완료)
     "Spring Boot.MsaExamApplication.executor": "Run",
+    "Spring Boot.OrderApplication (1).executor": "Run",
+    "Spring Boot.OrderApplication.executor": "Run",
+    "Spring Boot.ProductApplication.executor": "Run",
     "deletionFromPopupRequiresConfirmation": "false",
     "git-widget-placeholder": "msa",
 >>>>>>> 2ddeedc (feat: eureka 서버 구성)
@@ -473,6 +494,9 @@
   </component>
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 31ffbe2 (feat: 상품 추가, 조회, 주문 추가 전환)
   <component name="RunDashboard">
     <option name="configurationTypes">
       <set>
@@ -481,6 +505,7 @@
     </option>
   </component>
   <component name="RunManager" selected="Spring Boot.ProductApplication: 19094">
+<<<<<<< HEAD
     <configuration name="msa-exam [dependencies]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
 =======
   <component name="RunManager" selected="Spring Boot.EurekaServerApplication">
@@ -532,6 +557,8 @@
       <RunAsTest>false</RunAsTest>
       <method v="2" />
     </configuration>
+=======
+>>>>>>> 31ffbe2 (feat: 상품 추가, 조회, 주문 추가 전환)
     <configuration name="msa-exam [dependencies]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -544,6 +571,28 @@
         <option name="taskNames">
           <list>
             <option value="dependencies" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>false</RunAsTest>
+      <method v="2" />
+    </configuration>
+    <configuration name="msa-exam:Gateway [clean]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/Gateway" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="clean" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -652,9 +701,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GatewayApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+    <configuration name="GatewayApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <module name="msa_exam.Gateway.main" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.sparta.msa_exam.gateway.GatewayApplication" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.sparta.msa_exam.gateway.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -669,6 +724,14 @@
     <configuration name="ProductApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <module name="msa_exam.Product.main" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.sparta.msa_exam.product.ProductApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ProductApplication: 19094" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="msa_exam.Product.main" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.sparta.msa_exam.product.ProductApplication" />
+      <option name="VM_PARAMETERS" value="-Dserver.port=19094" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -723,6 +786,7 @@
     <list>
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
       <item itemvalue="Gradle.msa-exam:Gateway [clean]" />
       <item itemvalue="Gradle.msa-exam [dependencies]" />
       <item itemvalue="Spring Boot.AuthApplication" />
@@ -735,29 +799,42 @@
       <item itemvalue="Gradle./Users/choiseongwon/Desktop/study/sparta/msa-exam/Product [clean]" />
 >>>>>>> 2ddeedc (feat: eureka 서버 구성)
 =======
+=======
+      <item itemvalue="Gradle.msa-exam:Gateway [clean]" />
+>>>>>>> 31ffbe2 (feat: 상품 추가, 조회, 주문 추가 전환)
       <item itemvalue="Gradle.msa-exam [dependencies]" />
-      <item itemvalue="Gradle./Users/choiseongwon/Desktop/study/sparta/msa-exam/Product [build]" />
-      <item itemvalue="Gradle./Users/choiseongwon/Desktop/study/sparta/msa-exam/Product [clean]" />
       <item itemvalue="Spring Boot.AuthApplication" />
-      <item itemvalue="Spring Boot.GatewayApplication" />
       <item itemvalue="Spring Boot.OrderApplication" />
       <item itemvalue="Spring Boot.ProductApplication" />
+<<<<<<< HEAD
 >>>>>>> d27549b (feat: 멀티모듈 설정 완료, eureka 서버 + 게이트웨이 구성 완료)
+=======
+      <item itemvalue="Spring Boot.ProductApplication: 19094" />
+      <item itemvalue="Spring Boot.GatewayApplication" />
+>>>>>>> 31ffbe2 (feat: 상품 추가, 조회, 주문 추가 전환)
       <item itemvalue="Spring Boot.EurekaServerApplication" />
     </list>
     <recent_temporary>
       <list>
+<<<<<<< HEAD
 <<<<<<< HEAD
         <item itemvalue="Spring Boot.GatewayApplication" />
         <item itemvalue="Spring Boot.EurekaServerApplication" />
         <item itemvalue="Gradle.msa-exam:Gateway [clean]" />
         <item itemvalue="Gradle.msa-exam [dependencies]" />
 =======
+=======
+        <item itemvalue="Spring Boot.GatewayApplication" />
+>>>>>>> 31ffbe2 (feat: 상품 추가, 조회, 주문 추가 전환)
         <item itemvalue="Spring Boot.EurekaServerApplication" />
+        <item itemvalue="Gradle.msa-exam:Gateway [clean]" />
         <item itemvalue="Gradle.msa-exam [dependencies]" />
+<<<<<<< HEAD
         <item itemvalue="Gradle./Users/choiseongwon/Desktop/study/sparta/msa-exam/Product [build]" />
         <item itemvalue="Gradle./Users/choiseongwon/Desktop/study/sparta/msa-exam/Product [clean]" />
 >>>>>>> 2ddeedc (feat: eureka 서버 구성)
+=======
+>>>>>>> 31ffbe2 (feat: 상품 추가, 조회, 주문 추가 전환)
       </list>
     </recent_temporary>
   </component>
@@ -790,11 +867,16 @@
       <workItem from="1723396691172" duration="163000" />
       <workItem from="1723397784025" duration="36000" />
 <<<<<<< HEAD
+<<<<<<< HEAD
       <workItem from="1723397826821" duration="4245000" />
       <workItem from="1723402093561" duration="4617000" />
 =======
       <workItem from="1723397826821" duration="2856000" />
 >>>>>>> d27549b (feat: 멀티모듈 설정 완료, eureka 서버 + 게이트웨이 구성 완료)
+=======
+      <workItem from="1723397826821" duration="4245000" />
+      <workItem from="1723402093561" duration="3062000" />
+>>>>>>> 31ffbe2 (feat: 상품 추가, 조회, 주문 추가 전환)
     </task>
     <task id="LOCAL-00001" summary="feat: init commit">
       <option name="closed" value="true" />
@@ -905,6 +987,9 @@
       <updated>1723397562342</updated>
     </task>
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 31ffbe2 (feat: 상품 추가, 조회, 주문 추가 전환)
     <task id="LOCAL-00014" summary="feat: 멀티모듈 설정 완료, eureka 서버 + 게이트웨이 구성 완료">
       <option name="closed" value="true" />
       <created>1723400754573</created>
@@ -913,6 +998,7 @@
       <option name="project" value="LOCAL" />
       <updated>1723400754573</updated>
     </task>
+<<<<<<< HEAD
     <task id="LOCAL-00015" summary="feat: 상품 추가, 조회, 주문 추가 전환">
       <option name="closed" value="true" />
       <created>1723405346067</created>
@@ -928,6 +1014,9 @@
 =======
     <option name="localTasksCounter" value="14" />
 >>>>>>> d27549b (feat: 멀티모듈 설정 완료, eureka 서버 + 게이트웨이 구성 완료)
+=======
+    <option name="localTasksCounter" value="15" />
+>>>>>>> 31ffbe2 (feat: 상품 추가, 조회, 주문 추가 전환)
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -974,6 +1063,7 @@
     <MESSAGE value="feat: 멀티 모듈 구성" />
     <MESSAGE value="feat: eureka 서버 구성" />
     <MESSAGE value="feat: 멀티모듈 설정 완료, eureka 서버 + 게이트웨이 구성 완료" />
+<<<<<<< HEAD
     <MESSAGE value="feat: 상품 추가, 조회, 주문 추가 전환" />
     <MESSAGE value="feat: 상품 서비스 응답 헤더 포트 정보 추가" />
     <option name="LAST_COMMIT_MESSAGE" value="feat: 상품 서비스 응답 헤더 포트 정보 추가" />
@@ -989,5 +1079,8 @@
     <MESSAGE value="feat: eureka 서버 구성" />
     <option name="LAST_COMMIT_MESSAGE" value="feat: eureka 서버 구성" />
 >>>>>>> d27549b (feat: 멀티모듈 설정 완료, eureka 서버 + 게이트웨이 구성 완료)
+=======
+    <option name="LAST_COMMIT_MESSAGE" value="feat: 멀티모듈 설정 완료, eureka 서버 + 게이트웨이 구성 완료" />
+>>>>>>> 31ffbe2 (feat: 상품 추가, 조회, 주문 추가 전환)
   </component>
 </project>

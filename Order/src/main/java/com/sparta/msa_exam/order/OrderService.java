@@ -1,9 +1,12 @@
 package com.sparta.msa_exam.order;
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 import com.sparta.msa_exam.msa_exam.product.ProductService;
 >>>>>>> 917fac1 (feat: Msa 전환)
+=======
+>>>>>>> 31ffbe2 (feat: 상품 추가, 조회, 주문 추가 전환)
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
@@ -18,6 +21,7 @@ public class OrderService {
     private final OrderProductRepository orderProductRepository;
 
 <<<<<<< HEAD
+<<<<<<< HEAD
     private final ProductClient productClient;
 
     public OrderService(OrderRepository orderRepository, OrderProductRepository orderProductRepository, ProductClient productClient) {
@@ -26,12 +30,19 @@ public class OrderService {
         this.productClient = productClient;
 =======
     private final ProductService productService;
+=======
+    private final ProductClient productClient;
+>>>>>>> 31ffbe2 (feat: 상품 추가, 조회, 주문 추가 전환)
 
-    public OrderService(OrderRepository orderRepository, OrderProductRepository orderProductRepository, ProductService productService, ProductService productService1) {
+    public OrderService(OrderRepository orderRepository, OrderProductRepository orderProductRepository, ProductClient productClient) {
         this.orderRepository = orderRepository;
         this.orderProductRepository = orderProductRepository;
+<<<<<<< HEAD
         this.productService = productService1;
 >>>>>>> 917fac1 (feat: Msa 전환)
+=======
+        this.productClient = productClient;
+>>>>>>> 31ffbe2 (feat: 상품 추가, 조회, 주문 추가 전환)
     }
 
     @Transactional
@@ -58,10 +69,14 @@ public class OrderService {
                 .orElseThrow(() -> new IllegalArgumentException("해당 주문이 존재하지 않습니다."));
 
 <<<<<<< HEAD
+<<<<<<< HEAD
         if (!productClient.isExistingProduct(productId)) {
 =======
         if (!productService.containsById(productId)) {
 >>>>>>> 917fac1 (feat: Msa 전환)
+=======
+        if (!productClient.isExistingProduct(productId)) {
+>>>>>>> 31ffbe2 (feat: 상품 추가, 조회, 주문 추가 전환)
             throw new IllegalArgumentException("해당 상품이 존재하지 않습니다.");
         }
 
