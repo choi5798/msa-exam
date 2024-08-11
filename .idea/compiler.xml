@@ -2,6 +2,9 @@
 <project version="4">
   <component name="CompilerConfiguration">
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> d27549b (feat: 멀티모듈 설정 완료, eureka 서버 + 게이트웨이 구성 완료)
     <annotationProcessing>
       <profile default="true" name="Default" enabled="true" />
       <profile name="Gradle Imported" enabled="true">
@@ -14,8 +17,11 @@
         <module name="msa_exam.Auth.main" />
       </profile>
     </annotationProcessing>
+<<<<<<< HEAD
 =======
 >>>>>>> 2ddeedc (feat: eureka 서버 구성)
+=======
+>>>>>>> d27549b (feat: 멀티모듈 설정 완료, eureka 서버 + 게이트웨이 구성 완료)
     <bytecodeTargetLevel target="17" />
   </component>
 </project>

@@ -45,6 +45,9 @@ dependencyManagement {
 }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> d27549b (feat: 멀티모듈 설정 완료, eureka 서버 + 게이트웨이 구성 완료)
 tasks.named('bootJar') {
     enabled = true
 }
@@ -53,8 +56,11 @@ tasks.named('jar') {
     enabled = false
 }
 
+<<<<<<< HEAD
 =======
 >>>>>>> a6ea2fd (feat: 멀티 모듈 구성)
+=======
+>>>>>>> d27549b (feat: 멀티모듈 설정 완료, eureka 서버 + 게이트웨이 구성 완료)
 tasks.named('test') {
     useJUnitPlatform()
 }

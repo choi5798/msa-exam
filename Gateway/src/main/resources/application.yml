@@ -31,7 +31,34 @@ eureka:
       defaultZone: http://localhost:19090/eureka/
 =======
     name: Gateway
+  main:
+    web-application-type: reactive
+  cloud:
+    gateway:
+      routes:
+        - id: Order
+          uri: lb://Order
+          predicates:
+            - Path=/order/**
+        - id: Product
+          uri: lb://Product
+          predicates:
+            - Path=/products/**
+        - id: Auth
+          uri: lb://Auth
+          predicates:
+            - Path=/auth/signIn
+      discovery:
+        locator:
+          enabled: true
 
 server:
   port: 19091
+<<<<<<< HEAD
 >>>>>>> a6ea2fd (feat: 멀티 모듈 구성)
+=======
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:19090/eureka/
+>>>>>>> d27549b (feat: 멀티모듈 설정 완료, eureka 서버 + 게이트웨이 구성 완료)

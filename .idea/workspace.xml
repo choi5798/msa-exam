@@ -6,6 +6,7 @@
   <component name="ChangeListManager">
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     <list default="true" id="eb9d0b3d-85a9-4b4e-9017-5dd2e3a1013f" name="Changes" comment="feat: 상품 서비스 응답 헤더 포트 정보 추가">
       <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__antlr_antlr_2_7_7.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__ch_qos_logback_logback_classic_1_5_6.xml" afterDir="false" />
@@ -258,12 +259,23 @@
 >>>>>>> a6ea2fd (feat: 멀티 모듈 구성)
 =======
     <list default="true" id="eb9d0b3d-85a9-4b4e-9017-5dd2e3a1013f" name="Changes" comment="feat: 멀티 모듈 구성">
+=======
+    <list default="true" id="eb9d0b3d-85a9-4b4e-9017-5dd2e3a1013f" name="Changes" comment="feat: eureka 서버 구성">
+>>>>>>> d27549b (feat: 멀티모듈 설정 완료, eureka 서버 + 게이트웨이 구성 완료)
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/sparta/msa_exam/MsaExamApplication.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/sparta/msa_exam/msa_exam/MsaExamApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Auth/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/Auth/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/EurekaServer/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/EurekaServer/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/EurekaServer/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/EurekaServer/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Gateway/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/Gateway/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Gateway/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/Gateway/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Order/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/Order/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Product/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/Product/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/settings.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
     </list>
 >>>>>>> 2ddeedc (feat: eureka 서버 구성)
     <option name="SHOW_DIALOG" value="false" />
@@ -362,6 +374,7 @@
     "Gradle./Users/choiseongwon/Desktop/study/sparta/msa-exam/Product [build].executor": "Run",
     "Gradle./Users/choiseongwon/Desktop/study/sparta/msa-exam/Product [clean].executor": "Run",
 <<<<<<< HEAD
+<<<<<<< HEAD
     "Gradle.Build EurekaServer.executor": "Run",
     "Gradle.Build msa-exam.executor": "Run",
     "Gradle.msa-exam [dependencies].executor": "Run",
@@ -369,11 +382,17 @@
 =======
     "Gradle.Build msa-exam.executor": "Run",
 >>>>>>> 2ddeedc (feat: eureka 서버 구성)
+=======
+    "Gradle.Build EurekaServer.executor": "Run",
+    "Gradle.Build msa-exam.executor": "Run",
+    "Gradle.msa-exam [dependencies].executor": "Run",
+>>>>>>> d27549b (feat: 멀티모듈 설정 완료, eureka 서버 + 게이트웨이 구성 완료)
     "RequestMappingsPanelOrder0": "0",
     "RequestMappingsPanelOrder1": "1",
     "RequestMappingsPanelWidth0": "75",
     "RequestMappingsPanelWidth1": "75",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+<<<<<<< HEAD
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
 <<<<<<< HEAD
     "Spring Boot.EurekaServerApplication.executor": "Run",
@@ -387,6 +406,10 @@
     "deletionFromPopupRequiresConfirmation": "false",
     "git-widget-placeholder": "Rebasing msa",
 =======
+=======
+    "Spring Boot.EurekaServerApplication.executor": "Run",
+    "Spring Boot.GatewayApplication.executor": "Run",
+>>>>>>> d27549b (feat: 멀티모듈 설정 완료, eureka 서버 + 게이트웨이 구성 완료)
     "Spring Boot.MsaExamApplication.executor": "Run",
     "deletionFromPopupRequiresConfirmation": "false",
     "git-widget-placeholder": "msa",
@@ -400,6 +423,9 @@
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> d27549b (feat: 멀티모듈 설정 완료, eureka 서버 + 게이트웨이 구성 완료)
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
@@ -446,6 +472,7 @@
     </key>
   </component>
 <<<<<<< HEAD
+<<<<<<< HEAD
   <component name="RunDashboard">
     <option name="configurationTypes">
       <set>
@@ -457,6 +484,9 @@
     <configuration name="msa-exam [dependencies]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
 =======
   <component name="RunManager" selected="Spring Boot.EurekaServerApplication">
+=======
+  <component name="RunManager" selected="Spring Boot.GatewayApplication">
+>>>>>>> d27549b (feat: 멀티모듈 설정 완료, eureka 서버 + 게이트웨이 구성 완료)
     <configuration name="/Users/choiseongwon/Desktop/study/sparta/msa-exam/Product [build]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
 >>>>>>> 2ddeedc (feat: eureka 서버 구성)
       <ExternalSystemSettings>
@@ -502,6 +532,28 @@
       <RunAsTest>false</RunAsTest>
       <method v="2" />
     </configuration>
+    <configuration name="msa-exam [dependencies]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="dependencies" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>false</RunAsTest>
+      <method v="2" />
+    </configuration>
     <configuration default="true" type="JetRunConfigurationType">
       <module name="msa-exam" />
       <method v="2">
@@ -530,6 +582,9 @@
       <method v="2" />
     </configuration>
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> d27549b (feat: 멀티모듈 설정 완료, eureka 서버 + 게이트웨이 구성 완료)
     <configuration name="AuthApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <module name="msa_exam.Auth.main" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.sparta.msa_exam.auth.AuthApplication" />
@@ -537,12 +592,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+<<<<<<< HEAD
     <configuration name="EurekaServerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <module name="msa_exam.EurekaServer.main" />
 =======
     <configuration name="EurekaServerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <module name="EurekaServer.main" />
 >>>>>>> 2ddeedc (feat: eureka 서버 구성)
+=======
+    <configuration name="EurekaServerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="msa_exam.EurekaServer.main" />
+>>>>>>> d27549b (feat: 멀티모듈 설정 완료, eureka 서버 + 게이트웨이 구성 완료)
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.sparta.msa_exam.EurekaServerApplication" />
       <extension name="coverage">
         <pattern>
@@ -588,6 +648,27 @@
       <module name="msa_exam.Product.main" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.sparta.msa_exam.product.ProductApplication" />
       <option name="VM_PARAMETERS" value="-Dserver.port=19094" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GatewayApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="msa_exam.Gateway.main" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.sparta.msa_exam.gateway.GatewayApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="OrderApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="msa_exam.Order.main" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.sparta.msa_exam.order.OrderApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ProductApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="msa_exam.Product.main" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.sparta.msa_exam.product.ProductApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -641,6 +722,7 @@
     </configuration>
     <list>
 <<<<<<< HEAD
+<<<<<<< HEAD
       <item itemvalue="Gradle.msa-exam:Gateway [clean]" />
       <item itemvalue="Gradle.msa-exam [dependencies]" />
       <item itemvalue="Spring Boot.AuthApplication" />
@@ -652,6 +734,15 @@
       <item itemvalue="Gradle./Users/choiseongwon/Desktop/study/sparta/msa-exam/Product [build]" />
       <item itemvalue="Gradle./Users/choiseongwon/Desktop/study/sparta/msa-exam/Product [clean]" />
 >>>>>>> 2ddeedc (feat: eureka 서버 구성)
+=======
+      <item itemvalue="Gradle.msa-exam [dependencies]" />
+      <item itemvalue="Gradle./Users/choiseongwon/Desktop/study/sparta/msa-exam/Product [build]" />
+      <item itemvalue="Gradle./Users/choiseongwon/Desktop/study/sparta/msa-exam/Product [clean]" />
+      <item itemvalue="Spring Boot.AuthApplication" />
+      <item itemvalue="Spring Boot.GatewayApplication" />
+      <item itemvalue="Spring Boot.OrderApplication" />
+      <item itemvalue="Spring Boot.ProductApplication" />
+>>>>>>> d27549b (feat: 멀티모듈 설정 완료, eureka 서버 + 게이트웨이 구성 완료)
       <item itemvalue="Spring Boot.EurekaServerApplication" />
     </list>
     <recent_temporary>
@@ -663,6 +754,7 @@
         <item itemvalue="Gradle.msa-exam [dependencies]" />
 =======
         <item itemvalue="Spring Boot.EurekaServerApplication" />
+        <item itemvalue="Gradle.msa-exam [dependencies]" />
         <item itemvalue="Gradle./Users/choiseongwon/Desktop/study/sparta/msa-exam/Product [build]" />
         <item itemvalue="Gradle./Users/choiseongwon/Desktop/study/sparta/msa-exam/Product [clean]" />
 >>>>>>> 2ddeedc (feat: eureka 서버 구성)
@@ -697,8 +789,12 @@
       <workItem from="1723378759367" duration="520000" />
       <workItem from="1723396691172" duration="163000" />
       <workItem from="1723397784025" duration="36000" />
+<<<<<<< HEAD
       <workItem from="1723397826821" duration="4245000" />
       <workItem from="1723402093561" duration="4617000" />
+=======
+      <workItem from="1723397826821" duration="2856000" />
+>>>>>>> d27549b (feat: 멀티모듈 설정 완료, eureka 서버 + 게이트웨이 구성 완료)
     </task>
     <task id="LOCAL-00001" summary="feat: init commit">
       <option name="closed" value="true" />
@@ -797,6 +893,9 @@
       <updated>1723397085101</updated>
     </task>
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> d27549b (feat: 멀티모듈 설정 완료, eureka 서버 + 게이트웨이 구성 완료)
     <task id="LOCAL-00013" summary="feat: eureka 서버 구성">
       <option name="closed" value="true" />
       <created>1723397562342</created>
@@ -805,6 +904,7 @@
       <option name="project" value="LOCAL" />
       <updated>1723397562342</updated>
     </task>
+<<<<<<< HEAD
     <task id="LOCAL-00014" summary="feat: 멀티모듈 설정 완료, eureka 서버 + 게이트웨이 구성 완료">
       <option name="closed" value="true" />
       <created>1723400754573</created>
@@ -825,6 +925,9 @@
 =======
     <option name="localTasksCounter" value="13" />
 >>>>>>> 2ddeedc (feat: eureka 서버 구성)
+=======
+    <option name="localTasksCounter" value="14" />
+>>>>>>> d27549b (feat: 멀티모듈 설정 완료, eureka 서버 + 게이트웨이 구성 완료)
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -879,7 +982,12 @@
 >>>>>>> a6ea2fd (feat: 멀티 모듈 구성)
 =======
     <MESSAGE value="feat: 멀티 모듈 구성" />
+<<<<<<< HEAD
     <option name="LAST_COMMIT_MESSAGE" value="feat: 멀티 모듈 구성" />
 >>>>>>> 2ddeedc (feat: eureka 서버 구성)
+=======
+    <MESSAGE value="feat: eureka 서버 구성" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: eureka 서버 구성" />
+>>>>>>> d27549b (feat: 멀티모듈 설정 완료, eureka 서버 + 게이트웨이 구성 완료)
   </component>
 </project>

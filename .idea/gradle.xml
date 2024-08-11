@@ -11,6 +11,7 @@
           <set>
             <option value="$PROJECT_DIR$" />
             <option value="$PROJECT_DIR$/Auth" />
+<<<<<<< HEAD
             <option value="$PROJECT_DIR$/EurekaServer" />
             <option value="$PROJECT_DIR$/Gateway" />
             <option value="$PROJECT_DIR$/Order" />
@@ -23,7 +24,12 @@
         <option name="gradleJvm" value="#JAVA_HOME" />
         <option name="modules">
           <set>
+=======
+>>>>>>> d27549b (feat: 멀티모듈 설정 완료, eureka 서버 + 게이트웨이 구성 완료)
             <option value="$PROJECT_DIR$/EurekaServer" />
+            <option value="$PROJECT_DIR$/Gateway" />
+            <option value="$PROJECT_DIR$/Order" />
+            <option value="$PROJECT_DIR$/Product" />
           </set>
         </option>
       </GradleProjectSettings>
