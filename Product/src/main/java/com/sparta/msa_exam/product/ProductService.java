@@ -29,7 +29,7 @@ public class ProductService {
         return products.getContent();
     }
 
-    public boolean containsById(Long productId) {
+    public Boolean containsById(Long productId) {
         return productRepository.existsById(productId);
     }
 

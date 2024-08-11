@@ -6,3 +6,13 @@ spring:
     open-in-view: false
   jackson:
     property-naming-strategy: SNAKE_CASE
+  application:
+    name: order-service
+
+
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:19090/eureka/
+server:
+  port: 19092

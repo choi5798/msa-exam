@@ -1,6 +1,5 @@
 package com.sparta.msa_exam.order;
 
-import com.sparta.msa_exam.msa_exam.product.ProductService;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
@@ -14,12 +13,12 @@ public class OrderService {
 
     private final OrderProductRepository orderProductRepository;
 
-    private final ProductService productService;
+    private final ProductClient productClient;
 
-    public OrderService(OrderRepository orderRepository, OrderProductRepository orderProductRepository, ProductService productService, ProductService productService1) {
+    public OrderService(OrderRepository orderRepository, OrderProductRepository orderProductRepository, ProductClient productClient) {
         this.orderRepository = orderRepository;
         this.orderProductRepository = orderProductRepository;
-        this.productService = productService1;
+        this.productClient = productClient;
     }
 
     @Transactional
@@ -45,7 +44,7 @@ public class OrderService {
         Order order = orderRepository.findById(orderId)
                 .orElseThrow(() -> new IllegalArgumentException("해당 주문이 존재하지 않습니다."));
 
-        if (!productService.containsById(productId)) {
+        if (!productClient.isExistingProduct(productId)) {
             throw new IllegalArgumentException("해당 상품이 존재하지 않습니다.");
         }
 

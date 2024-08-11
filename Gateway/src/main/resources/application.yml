@@ -1,21 +1,21 @@
 spring:
   application:
-    name: Gateway
+    name: gateway-service
   main:
     web-application-type: reactive
   cloud:
     gateway:
       routes:
-        - id: Order
-          uri: lb://Order
+        - id: order-service
+          uri: lb://order-service
           predicates:
             - Path=/order/**
-        - id: Product
-          uri: lb://Product
+        - id: product-service
+          uri: lb://product-service
           predicates:
             - Path=/products/**
-        - id: Auth
-          uri: lb://Auth
+        - id: auth-service
+          uri: lb://auth-service
           predicates:
             - Path=/auth/signIn
       discovery:

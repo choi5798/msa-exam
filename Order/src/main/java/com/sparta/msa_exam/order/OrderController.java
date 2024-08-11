@@ -26,12 +26,12 @@ public class OrderController {
     }
 
     @PutMapping("/{orderId}")
-    public void addProduct(@PathVariable Long orderId, @RequestBody AddOrderProductRequest request) {
+    public void addProduct(@PathVariable("orderId") Long orderId, @RequestBody AddOrderProductRequest request) {
         orderService.addOrder(orderId, request.productId());
     }
 
     @GetMapping("/{orderId}")
-    public OrderResponse getOrder(@PathVariable Long orderId) {
+    public OrderResponse getOrder(@PathVariable("orderId") Long orderId) {
         Order order = orderService.getOrder(orderId);
         List<Long> productIds = order.getProductIds().stream()
                 .map(OrderProduct::getProductId)
