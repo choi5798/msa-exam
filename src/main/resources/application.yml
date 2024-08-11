@@ -1,2 +1,7 @@
 server:
-    port: 19090
+  port: 19090
+spring:
+  jpa:
+    show-sql: true
+    hibernate:
+      ddl-auto: update
