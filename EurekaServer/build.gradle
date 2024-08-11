@@ -33,6 +33,7 @@ dependencyManagement {
     }
 }
 
+<<<<<<< HEAD
 tasks.named('bootJar') {
     enabled = true
 }
@@ -41,6 +42,8 @@ tasks.named('jar') {
     enabled = false
 }
 
+=======
+>>>>>>> 2ddeedc (feat: eureka 서버 구성)
 tasks.named('test') {
     useJUnitPlatform()
 }

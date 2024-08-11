@@ -5,6 +5,7 @@
   </component>
   <component name="ChangeListManager">
 <<<<<<< HEAD
+<<<<<<< HEAD
     <list default="true" id="eb9d0b3d-85a9-4b4e-9017-5dd2e3a1013f" name="Changes" comment="feat: 상품 서비스 응답 헤더 포트 정보 추가">
       <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__antlr_antlr_2_7_7.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__ch_qos_logback_logback_classic_1_5_6.xml" afterDir="false" />
@@ -255,6 +256,16 @@
 =======
     <list default="true" id="eb9d0b3d-85a9-4b4e-9017-5dd2e3a1013f" name="Changes" comment="feat: Msa 전환" />
 >>>>>>> a6ea2fd (feat: 멀티 모듈 구성)
+=======
+    <list default="true" id="eb9d0b3d-85a9-4b4e-9017-5dd2e3a1013f" name="Changes" comment="feat: 멀티 모듈 구성">
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sparta/msa_exam/MsaExamApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/sparta/msa_exam/msa_exam/MsaExamApplicationTests.java" beforeDir="false" />
+    </list>
+>>>>>>> 2ddeedc (feat: eureka 서버 구성)
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -343,20 +354,28 @@
     <option name="showLibraryContents" value="true" />
   </component>
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 2ddeedc (feat: eureka 서버 구성)
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Gradle./Users/choiseongwon/Desktop/study/sparta/msa-exam/Product [build].executor": "Run",
     "Gradle./Users/choiseongwon/Desktop/study/sparta/msa-exam/Product [clean].executor": "Run",
+<<<<<<< HEAD
     "Gradle.Build EurekaServer.executor": "Run",
     "Gradle.Build msa-exam.executor": "Run",
     "Gradle.msa-exam [dependencies].executor": "Run",
     "Gradle.msa-exam:Gateway [clean].executor": "Run",
+=======
+    "Gradle.Build msa-exam.executor": "Run",
+>>>>>>> 2ddeedc (feat: eureka 서버 구성)
     "RequestMappingsPanelOrder0": "0",
     "RequestMappingsPanelOrder1": "1",
     "RequestMappingsPanelWidth0": "75",
     "RequestMappingsPanelWidth1": "75",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+<<<<<<< HEAD
     "Spring Boot.EurekaServerApplication.executor": "Run",
     "Spring Boot.GatewayApplication (1).executor": "Run",
     "Spring Boot.GatewayApplication.executor": "Run",
@@ -367,6 +386,11 @@
     "Spring Boot.ProductApplication: 19094.executor": "Run",
     "deletionFromPopupRequiresConfirmation": "false",
     "git-widget-placeholder": "Rebasing msa",
+=======
+    "Spring Boot.MsaExamApplication.executor": "Run",
+    "deletionFromPopupRequiresConfirmation": "false",
+    "git-widget-placeholder": "msa",
+>>>>>>> 2ddeedc (feat: eureka 서버 구성)
     "jdk.selected.JAVA_MODULE": "corretto-17",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "/Users/choiseongwon/Desktop/study/sparta/msa-exam/Product/src/main/java/com/sparta/msa_exam/product",
@@ -375,6 +399,7 @@
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
+<<<<<<< HEAD
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
@@ -404,8 +429,11 @@
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
 >>>>>>> a6ea2fd (feat: 멀티 모듈 구성)
+=======
+    "vue.rearranger.settings.migration": "true"
+>>>>>>> 2ddeedc (feat: eureka 서버 구성)
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="com.sparta.msa_exam.msa_exam.order" />
@@ -417,6 +445,7 @@
       <recent name="$PROJECT_DIR$/Product" />
     </key>
   </component>
+<<<<<<< HEAD
   <component name="RunDashboard">
     <option name="configurationTypes">
       <set>
@@ -426,11 +455,15 @@
   </component>
   <component name="RunManager" selected="Spring Boot.ProductApplication: 19094">
     <configuration name="msa-exam [dependencies]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+=======
+  <component name="RunManager" selected="Spring Boot.EurekaServerApplication">
+    <configuration name="/Users/choiseongwon/Desktop/study/sparta/msa-exam/Product [build]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+>>>>>>> 2ddeedc (feat: eureka 서버 구성)
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" />
+        <option name="scriptParameters" value="" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -496,6 +529,7 @@
       <option name="launchJavascriptDebuger" value="false" />
       <method v="2" />
     </configuration>
+<<<<<<< HEAD
     <configuration name="AuthApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <module name="msa_exam.Auth.main" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.sparta.msa_exam.auth.AuthApplication" />
@@ -505,6 +539,10 @@
     </configuration>
     <configuration name="EurekaServerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <module name="msa_exam.EurekaServer.main" />
+=======
+    <configuration name="EurekaServerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="EurekaServer.main" />
+>>>>>>> 2ddeedc (feat: eureka 서버 구성)
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.sparta.msa_exam.EurekaServerApplication" />
       <extension name="coverage">
         <pattern>
@@ -512,6 +550,7 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+<<<<<<< HEAD
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -539,6 +578,8 @@
     <configuration name="ProductApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <module name="msa_exam.Product.main" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.sparta.msa_exam.product.ProductApplication" />
+=======
+>>>>>>> 2ddeedc (feat: eureka 서버 구성)
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -599,6 +640,7 @@
       <method v="2" />
     </configuration>
     <list>
+<<<<<<< HEAD
       <item itemvalue="Gradle.msa-exam:Gateway [clean]" />
       <item itemvalue="Gradle.msa-exam [dependencies]" />
       <item itemvalue="Spring Boot.AuthApplication" />
@@ -606,14 +648,24 @@
       <item itemvalue="Spring Boot.ProductApplication" />
       <item itemvalue="Spring Boot.ProductApplication: 19094" />
       <item itemvalue="Spring Boot.GatewayApplication" />
+=======
+      <item itemvalue="Gradle./Users/choiseongwon/Desktop/study/sparta/msa-exam/Product [build]" />
+      <item itemvalue="Gradle./Users/choiseongwon/Desktop/study/sparta/msa-exam/Product [clean]" />
+>>>>>>> 2ddeedc (feat: eureka 서버 구성)
       <item itemvalue="Spring Boot.EurekaServerApplication" />
     </list>
     <recent_temporary>
       <list>
+<<<<<<< HEAD
         <item itemvalue="Spring Boot.GatewayApplication" />
         <item itemvalue="Spring Boot.EurekaServerApplication" />
         <item itemvalue="Gradle.msa-exam:Gateway [clean]" />
         <item itemvalue="Gradle.msa-exam [dependencies]" />
+=======
+        <item itemvalue="Spring Boot.EurekaServerApplication" />
+        <item itemvalue="Gradle./Users/choiseongwon/Desktop/study/sparta/msa-exam/Product [build]" />
+        <item itemvalue="Gradle./Users/choiseongwon/Desktop/study/sparta/msa-exam/Product [clean]" />
+>>>>>>> 2ddeedc (feat: eureka 서버 구성)
       </list>
     </recent_temporary>
   </component>
@@ -744,6 +796,7 @@
       <option name="project" value="LOCAL" />
       <updated>1723397085101</updated>
     </task>
+<<<<<<< HEAD
     <task id="LOCAL-00013" summary="feat: eureka 서버 구성">
       <option name="closed" value="true" />
       <created>1723397562342</created>
@@ -769,6 +822,9 @@
       <updated>1723405346067</updated>
     </task>
     <option name="localTasksCounter" value="16" />
+=======
+    <option name="localTasksCounter" value="13" />
+>>>>>>> 2ddeedc (feat: eureka 서버 구성)
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -811,6 +867,7 @@
     <MESSAGE value="feat: AuthController 생성" />
     <MESSAGE value="feat: Msa 전환" />
 <<<<<<< HEAD
+<<<<<<< HEAD
     <MESSAGE value="feat: 멀티 모듈 구성" />
     <MESSAGE value="feat: eureka 서버 구성" />
     <MESSAGE value="feat: 멀티모듈 설정 완료, eureka 서버 + 게이트웨이 구성 완료" />
@@ -820,5 +877,9 @@
 =======
     <option name="LAST_COMMIT_MESSAGE" value="feat: Msa 전환" />
 >>>>>>> a6ea2fd (feat: 멀티 모듈 구성)
+=======
+    <MESSAGE value="feat: 멀티 모듈 구성" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: 멀티 모듈 구성" />
+>>>>>>> 2ddeedc (feat: eureka 서버 구성)
   </component>
 </project>
