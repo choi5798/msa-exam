@@ -1,5 +1,6 @@
 spring:
   application:
+<<<<<<< HEAD
     name: gateway-service
   main:
     web-application-type: reactive
@@ -28,3 +29,9 @@ eureka:
   client:
     service-url:
       defaultZone: http://localhost:19090/eureka/
+=======
+    name: Gateway
+
+server:
+  port: 19091
+>>>>>>> a6ea2fd (feat: 멀티 모듈 구성)

@@ -6,6 +6,7 @@ spring:
     open-in-view: false
   jackson:
     property-naming-strategy: SNAKE_CASE
+<<<<<<< HEAD
   application:
     name: order-service
 
@@ -16,3 +17,5 @@ eureka:
       defaultZone: http://localhost:19090/eureka/
 server:
   port: 19092
+=======
+>>>>>>> a6ea2fd (feat: 멀티 모듈 구성)

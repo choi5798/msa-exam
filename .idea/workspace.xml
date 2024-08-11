@@ -4,6 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
+<<<<<<< HEAD
     <list default="true" id="eb9d0b3d-85a9-4b4e-9017-5dd2e3a1013f" name="Changes" comment="feat: 상품 서비스 응답 헤더 포트 정보 추가">
       <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__antlr_antlr_2_7_7.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__ch_qos_logback_logback_classic_1_5_6.xml" afterDir="false" />
@@ -251,6 +252,9 @@
       <change beforePath="$PROJECT_DIR$/src/main/java/com/sparta/msa_exam/msa_exam/product/ProductService.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.yml" afterDir="false" />
     </list>
+=======
+    <list default="true" id="eb9d0b3d-85a9-4b4e-9017-5dd2e3a1013f" name="Changes" comment="feat: Msa 전환" />
+>>>>>>> a6ea2fd (feat: 멀티 모듈 구성)
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -338,6 +342,7 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
+<<<<<<< HEAD
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Gradle./Users/choiseongwon/Desktop/study/sparta/msa-exam/Product [build].executor": "Run",
@@ -375,8 +380,32 @@
     "project.structure.side.proportion": "0.2",
     "settings.editor.selected.configurable": "reference.settingsdialog.project.gradle",
     "vue.rearranger.settings.migration": "true"
+=======
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Gradle./Users/choiseongwon/Desktop/study/sparta/msa-exam/Product [build].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle./Users/choiseongwon/Desktop/study/sparta/msa-exam/Product [clean].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.Build msa-exam.executor&quot;: &quot;Run&quot;,
+    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
+    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
+    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
+    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;Spring Boot.MsaExamApplication.executor&quot;: &quot;Run&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;develop&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;corretto-17&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/choiseongwon/Desktop/study/sparta/msa-exam/Product/src/main/java/com/sparta/msa_exam/product&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+>>>>>>> a6ea2fd (feat: 멀티 모듈 구성)
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="com.sparta.msa_exam.msa_exam.order" />
@@ -781,11 +810,15 @@
     <MESSAGE value="feat: 주문 추가, 주문에 상품 추가, 주문 단건 조회 API 구현" />
     <MESSAGE value="feat: AuthController 생성" />
     <MESSAGE value="feat: Msa 전환" />
+<<<<<<< HEAD
     <MESSAGE value="feat: 멀티 모듈 구성" />
     <MESSAGE value="feat: eureka 서버 구성" />
     <MESSAGE value="feat: 멀티모듈 설정 완료, eureka 서버 + 게이트웨이 구성 완료" />
     <MESSAGE value="feat: 상품 추가, 조회, 주문 추가 전환" />
     <MESSAGE value="feat: 상품 서비스 응답 헤더 포트 정보 추가" />
     <option name="LAST_COMMIT_MESSAGE" value="feat: 상품 서비스 응답 헤더 포트 정보 추가" />
+=======
+    <option name="LAST_COMMIT_MESSAGE" value="feat: Msa 전환" />
+>>>>>>> a6ea2fd (feat: 멀티 모듈 구성)
   </component>
 </project>

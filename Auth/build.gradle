@@ -44,6 +44,7 @@ dependencyManagement {
     }
 }
 
+<<<<<<< HEAD
 tasks.named('bootJar') {
     enabled = true
 }
@@ -52,6 +53,8 @@ tasks.named('jar') {
     enabled = false
 }
 
+=======
+>>>>>>> a6ea2fd (feat: 멀티 모듈 구성)
 tasks.named('test') {
     useJUnitPlatform()
 }

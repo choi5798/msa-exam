@@ -31,7 +31,10 @@ dependencies {
 	implementation 'org.springframework.boot:spring-boot-starter-data-jpa'
 	implementation 'org.springframework.boot:spring-boot-starter-web'
 	implementation 'org.springframework.cloud:spring-cloud-starter-netflix-eureka-client'
+<<<<<<< HEAD
 	implementation 'org.springframework.cloud:spring-cloud-starter-openfeign'
+=======
+>>>>>>> a6ea2fd (feat: 멀티 모듈 구성)
 	compileOnly 'org.projectlombok:lombok'
 	runtimeOnly 'org.hsqldb:hsqldb'
 	annotationProcessor 'org.projectlombok:lombok'
@@ -45,6 +48,7 @@ dependencyManagement {
 	}
 }
 
+<<<<<<< HEAD
 tasks.named('bootJar') {
 	enabled = true
 }
@@ -53,6 +57,8 @@ tasks.named('jar') {
 	enabled = false
 }
 
+=======
+>>>>>>> a6ea2fd (feat: 멀티 모듈 구성)
 tasks.named('test') {
 	useJUnitPlatform()
 }

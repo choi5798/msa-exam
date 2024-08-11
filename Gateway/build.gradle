@@ -22,13 +22,19 @@ ext {
 }
 
 dependencies {
+<<<<<<< HEAD
     implementation 'io.netty:netty-resolver-dns-native-macos'
+=======
+>>>>>>> a6ea2fd (feat: 멀티 모듈 구성)
     implementation 'io.jsonwebtoken:jjwt:0.12.6'
     implementation 'org.springframework.boot:spring-boot-starter-actuator'
     implementation 'org.springframework.boot:spring-boot-starter-web'
     implementation 'org.springframework.cloud:spring-cloud-starter-gateway'
     implementation 'org.springframework.cloud:spring-cloud-starter-netflix-eureka-client'
+<<<<<<< HEAD
     implementation 'org.projectlombok:lombok'
+=======
+>>>>>>> a6ea2fd (feat: 멀티 모듈 구성)
     testImplementation 'org.springframework.boot:spring-boot-starter-test'
     testRuntimeOnly 'org.junit.platform:junit-platform-launcher'
 }
@@ -39,6 +45,7 @@ dependencyManagement {
     }
 }
 
+<<<<<<< HEAD
 tasks.named('bootJar') {
     enabled = true
 }
@@ -47,6 +54,8 @@ tasks.named('jar') {
     enabled = false
 }
 
+=======
+>>>>>>> a6ea2fd (feat: 멀티 모듈 구성)
 tasks.named('test') {
     useJUnitPlatform()
 }
