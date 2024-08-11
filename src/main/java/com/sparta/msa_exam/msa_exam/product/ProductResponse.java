@@ -15,7 +15,7 @@ public record ProductResponse(
     }
 
     public ProductResponse(Product product) {
-        this(product.getProductId(), product.getName(), product.getSupplyPrice());
+        this(product.getId(), product.getName(), product.getSupplyPrice());
     }
 
 }
