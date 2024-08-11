@@ -1,4 +1,4 @@
-package com.sparta.msa_exam.msa_exam;
+package com.sparta.msa_exam.gateway;
 
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.core.MethodParameter;

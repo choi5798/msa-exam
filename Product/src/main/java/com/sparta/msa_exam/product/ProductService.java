@@ -29,7 +29,11 @@ public class ProductService {
         return products.getContent();
     }
 
+<<<<<<< HEAD
     public Boolean containsById(Long productId) {
+=======
+    public boolean containsById(Long productId) {
+>>>>>>> 917fac1 (feat: Msa 전환)
         return productRepository.existsById(productId);
     }
 
