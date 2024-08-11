@@ -4,10 +4,18 @@
   <component name="GradleSettings">
     <option name="linkedExternalProjectsSettings">
       <GradleProjectSettings>
+        <option name="delegatedBuild" value="false" />
+        <option name="testRunner" value="PLATFORM" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="gradleJvm" value="#JAVA_HOME" />
         <option name="modules">
           <set>
             <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/Auth" />
+            <option value="$PROJECT_DIR$/EurekaServer" />
+            <option value="$PROJECT_DIR$/Gateway" />
+            <option value="$PROJECT_DIR$/Order" />
+            <option value="$PROJECT_DIR$/Product" />
           </set>
         </option>
       </GradleProjectSettings>

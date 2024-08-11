@@ -1,0 +1,548 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="eb9d0b3d-85a9-4b4e-9017-5dd2e3a1013f" name="Changes" comment="feat: 상품 추가, 조회, 주문 추가 전환">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Gateway/src/main/java/com/sparta/msa_exam/gateway/HeaderAdvice.java" beforeDir="false" afterPath="$PROJECT_DIR$/Product/src/main/java/com/sparta/msa_exam/product/HeaderAdvice.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Product/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/Product/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Product/src/main/java/com/sparta/msa_exam/product/ProductController.java" beforeDir="false" afterPath="$PROJECT_DIR$/Product/src/main/java/com/sparta/msa_exam/product/ProductController.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+    <projectState path="$PROJECT_DIR$/Auth">
+      <ProjectState />
+    </projectState>
+    <projectState path="$PROJECT_DIR$/EurekaServer">
+      <ProjectState />
+    </projectState>
+    <projectState path="$PROJECT_DIR$/Gateway">
+      <ProjectState />
+    </projectState>
+    <projectState path="$PROJECT_DIR$/Order">
+      <ProjectState />
+    </projectState>
+    <projectState path="$PROJECT_DIR$/Product">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <task path="$PROJECT_DIR$/Product">
+          <activation />
+        </task>
+        <task path="$PROJECT_DIR$/Gateway">
+          <activation />
+        </task>
+        <projects_view>
+          <tree_state>
+            <expand />
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Record" />
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="develop" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;choi5798&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/choi5798/msa-exam.git&quot;,
+    &quot;accountId&quot;: &quot;7c35ee74-882f-47f6-9bea-4a22caedd252&quot;
+  }
+}</component>
+  <component name="KubernetesApiPersistence"><![CDATA[{}]]></component>
+  <component name="KubernetesApiProvider"><![CDATA[{
+  "isMigrated": true
+}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 2
+}</component>
+  <component name="ProjectId" id="2kKgvWQYoFG4iEXCh3HLWqE1MeW" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Gradle./Users/choiseongwon/Desktop/study/sparta/msa-exam/Product [build].executor": "Run",
+    "Gradle./Users/choiseongwon/Desktop/study/sparta/msa-exam/Product [clean].executor": "Run",
+    "Gradle.Build EurekaServer.executor": "Run",
+    "Gradle.Build msa-exam.executor": "Run",
+    "Gradle.msa-exam [dependencies].executor": "Run",
+    "Gradle.msa-exam:Gateway [clean].executor": "Run",
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "Spring Boot.EurekaServerApplication.executor": "Run",
+    "Spring Boot.GatewayApplication (1).executor": "Run",
+    "Spring Boot.GatewayApplication.executor": "Run",
+    "Spring Boot.MsaExamApplication.executor": "Run",
+    "Spring Boot.OrderApplication (1).executor": "Run",
+    "Spring Boot.OrderApplication.executor": "Run",
+    "Spring Boot.ProductApplication.executor": "Run",
+    "Spring Boot.ProductApplication: 19094.executor": "Run",
+    "deletionFromPopupRequiresConfirmation": "false",
+    "git-widget-placeholder": "msa",
+    "jdk.selected.JAVA_MODULE": "corretto-17",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "/Users/choiseongwon/Desktop/study/sparta/msa-exam/Product/src/main/java/com/sparta/msa_exam/product",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "reference.settingsdialog.project.gradle",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.sparta.msa_exam.msa_exam.order" />
+      <recent name="com.sparta.msa_exam.msa_exam.product" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Product/src/main/java/com/sparta/msa_exam/product" />
+      <recent name="$PROJECT_DIR$/Order" />
+      <recent name="$PROJECT_DIR$/Product" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="configurationTypes">
+      <set>
+        <option value="SpringBootApplicationConfigurationType" />
+      </set>
+    </option>
+  </component>
+  <component name="RunManager" selected="Spring Boot.ProductApplication: 19094">
+    <configuration name="msa-exam [dependencies]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="dependencies" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>false</RunAsTest>
+      <method v="2" />
+    </configuration>
+    <configuration name="msa-exam:Gateway [clean]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/Gateway" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="clean" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>false</RunAsTest>
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="JetRunConfigurationType">
+      <module name="msa-exam" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <module name="msa-exam" />
+      <option name="filePath" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="Python.FlaskServer">
+      <module name="msa-exam" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="launchJavascriptDebuger" value="false" />
+      <method v="2" />
+    </configuration>
+    <configuration name="AuthApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="msa_exam.Auth.main" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.sparta.msa_exam.auth.AuthApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EurekaServerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="msa_exam.EurekaServer.main" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.sparta.msa_exam.EurekaServerApplication" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.sparta.msa_exam.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GatewayApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="msa_exam.Gateway.main" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.sparta.msa_exam.gateway.GatewayApplication" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.sparta.msa_exam.gateway.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="OrderApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="msa_exam.Order.main" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.sparta.msa_exam.order.OrderApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ProductApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="msa_exam.Product.main" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.sparta.msa_exam.product.ProductApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ProductApplication: 19094" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="msa_exam.Product.main" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.sparta.msa_exam.product.ProductApplication" />
+      <option name="VM_PARAMETERS" value="-Dserver.port=19094" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="Tox" factoryName="Tox">
+      <module name="msa-exam" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="docs" factoryName="Docutils task">
+      <module name="msa-exam" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="docutils_input_file" value="" />
+      <option name="docutils_output_file" value="" />
+      <option name="docutils_params" value="" />
+      <option name="docutils_task" value="" />
+      <option name="docutils_open_in_browser" value="false" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="docs" factoryName="Sphinx task">
+      <module name="msa-exam" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="docutils_input_file" value="" />
+      <option name="docutils_output_file" value="" />
+      <option name="docutils_params" value="" />
+      <option name="docutils_task" value="" />
+      <option name="docutils_open_in_browser" value="false" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Gradle.msa-exam:Gateway [clean]" />
+      <item itemvalue="Gradle.msa-exam [dependencies]" />
+      <item itemvalue="Spring Boot.AuthApplication" />
+      <item itemvalue="Spring Boot.OrderApplication" />
+      <item itemvalue="Spring Boot.ProductApplication" />
+      <item itemvalue="Spring Boot.ProductApplication: 19094" />
+      <item itemvalue="Spring Boot.GatewayApplication" />
+      <item itemvalue="Spring Boot.EurekaServerApplication" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Spring Boot.GatewayApplication" />
+        <item itemvalue="Spring Boot.EurekaServerApplication" />
+        <item itemvalue="Gradle.msa-exam:Gateway [clean]" />
+        <item itemvalue="Gradle.msa-exam [dependencies]" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9f38398b9061-39b83d9b5494-intellij.indexing.shared.core-IU-241.18034.62" />
+        <option value="bundled-js-predefined-1d06a55b98c1-0b3e54e931b4-JavaScript-IU-241.18034.62" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="eb9d0b3d-85a9-4b4e-9017-5dd2e3a1013f" name="Changes" comment="" />
+      <created>1723037912446</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1723037912446</updated>
+      <workItem from="1723037913510" duration="3711000" />
+      <workItem from="1723098376787" duration="4327000" />
+      <workItem from="1723130400549" duration="181000" />
+      <workItem from="1723167463550" duration="87000" />
+      <workItem from="1723180869832" duration="347000" />
+      <workItem from="1723207561090" duration="996000" />
+      <workItem from="1723356234341" duration="10484000" />
+      <workItem from="1723378545435" duration="167000" />
+      <workItem from="1723378715279" duration="38000" />
+      <workItem from="1723378759367" duration="520000" />
+      <workItem from="1723396691172" duration="163000" />
+      <workItem from="1723397784025" duration="36000" />
+      <workItem from="1723397826821" duration="4245000" />
+      <workItem from="1723402093561" duration="4617000" />
+    </task>
+    <task id="LOCAL-00001" summary="feat: init commit">
+      <option name="closed" value="true" />
+      <created>1723037953814</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1723037953814</updated>
+    </task>
+    <task id="LOCAL-00002" summary="docs: README 작성">
+      <option name="closed" value="true" />
+      <created>1723038081652</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1723038081652</updated>
+    </task>
+    <task id="LOCAL-00003" summary="docs: README api 명세 추가">
+      <option name="closed" value="true" />
+      <created>1723101520909</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1723101520909</updated>
+    </task>
+    <task id="LOCAL-00004" summary="feat: HeaderAdvice 구현">
+      <option name="closed" value="true" />
+      <created>1723102201083</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1723102201083</updated>
+    </task>
+    <task id="LOCAL-00005" summary="docs, fix: order api 명세 변경, msa 구성을 위한 .idea 폴더 추가">
+      <option name="closed" value="true" />
+      <created>1723181006683</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1723181006683</updated>
+    </task>
+    <task id="LOCAL-00006" summary="feat: 상품 추가, 상품 목록 조회 API 구현">
+      <option name="closed" value="true" />
+      <created>1723357536646</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1723357536646</updated>
+    </task>
+    <task id="LOCAL-00007" summary="feat: 상품 목록 조회 API 페이징 기능 추가">
+      <option name="closed" value="true" />
+      <created>1723357854042</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1723357854042</updated>
+    </task>
+    <task id="LOCAL-00008" summary="style: Product id 변수명 변경">
+      <option name="closed" value="true" />
+      <created>1723358214270</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1723358214270</updated>
+    </task>
+    <task id="LOCAL-00009" summary="style: api 요청/응답 규격 snake_case 설정">
+      <option name="closed" value="true" />
+      <created>1723376371093</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1723376371093</updated>
+    </task>
+    <task id="LOCAL-00010" summary="feat: 주문 추가, 주문에 상품 추가, 주문 단건 조회 API 구현">
+      <option name="closed" value="true" />
+      <created>1723376396427</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1723376396427</updated>
+    </task>
+    <task id="LOCAL-00011" summary="feat: AuthController 생성">
+      <option name="closed" value="true" />
+      <created>1723376551162</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1723376551162</updated>
+    </task>
+    <task id="LOCAL-00012" summary="feat: 멀티 모듈 구성">
+      <option name="closed" value="true" />
+      <created>1723397085101</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1723397085101</updated>
+    </task>
+    <task id="LOCAL-00013" summary="feat: eureka 서버 구성">
+      <option name="closed" value="true" />
+      <created>1723397562342</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1723397562342</updated>
+    </task>
+    <task id="LOCAL-00014" summary="feat: 멀티모듈 설정 완료, eureka 서버 + 게이트웨이 구성 완료">
+      <option name="closed" value="true" />
+      <created>1723400754573</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1723400754573</updated>
+    </task>
+    <task id="LOCAL-00015" summary="feat: 상품 추가, 조회, 주문 추가 전환">
+      <option name="closed" value="true" />
+      <created>1723405346067</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1723405346067</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="main" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="feat: init commit" />
+    <MESSAGE value="docs: README 작성" />
+    <MESSAGE value="docs: README api 명세 추가" />
+    <MESSAGE value="feat: HeaderAdvice 구현" />
+    <MESSAGE value="docs, fix: order api 명세 변경, msa 구성을 위한 .idea 폴더 추가" />
+    <MESSAGE value="feat: 상품 추가, 상품 목록 조회 API 구현" />
+    <MESSAGE value="feat: 상품 목록 조회 API 페이징 기능 추가" />
+    <MESSAGE value="style: Product id 변수명 변경" />
+    <MESSAGE value="style: api 요청/응답 규격 snake_case 설정" />
+    <MESSAGE value="feat: 주문 추가, 주문에 상품 추가, 주문 단건 조회 API 구현" />
+    <MESSAGE value="feat: AuthController 생성" />
+    <MESSAGE value="feat: Msa 전환" />
+    <MESSAGE value="feat: 멀티 모듈 구성" />
+    <MESSAGE value="feat: eureka 서버 구성" />
+    <MESSAGE value="feat: 멀티모듈 설정 완료, eureka 서버 + 게이트웨이 구성 완료" />
+    <MESSAGE value="feat: 상품 추가, 조회, 주문 추가 전환" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: 상품 추가, 조회, 주문 추가 전환" />
+  </component>
+</project>
