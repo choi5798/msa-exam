@@ -4,22 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="eb9d0b3d-85a9-4b4e-9017-5dd2e3a1013f" name="Changes" comment="feat: 멀티모듈 설정 완료, eureka 서버 + 게이트웨이 구성 완료">
-      <change afterPath="$PROJECT_DIR$/Auth/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Order/src/main/java/com/sparta/msa_exam/order/ProductClient.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+    <list default="true" id="eb9d0b3d-85a9-4b4e-9017-5dd2e3a1013f" name="Changes" comment="feat: 상품 추가, 조회, 주문 추가 전환">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Auth/src/main/resources/application.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gateway/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/Gateway/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gateway/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/Gateway/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Order/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/Order/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Order/src/main/java/com/sparta/msa_exam/order/OrderApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/Order/src/main/java/com/sparta/msa_exam/order/OrderApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Order/src/main/java/com/sparta/msa_exam/order/OrderController.java" beforeDir="false" afterPath="$PROJECT_DIR$/Order/src/main/java/com/sparta/msa_exam/order/OrderController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Order/src/main/java/com/sparta/msa_exam/order/OrderService.java" beforeDir="false" afterPath="$PROJECT_DIR$/Order/src/main/java/com/sparta/msa_exam/order/OrderService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Order/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/Order/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Gateway/src/main/java/com/sparta/msa_exam/gateway/HeaderAdvice.java" beforeDir="false" afterPath="$PROJECT_DIR$/Product/src/main/java/com/sparta/msa_exam/product/HeaderAdvice.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Product/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/Product/build.gradle" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Product/src/main/java/com/sparta/msa_exam/product/ProductController.java" beforeDir="false" afterPath="$PROJECT_DIR$/Product/src/main/java/com/sparta/msa_exam/product/ProductController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Product/src/main/java/com/sparta/msa_exam/product/ProductService.java" beforeDir="false" afterPath="$PROJECT_DIR$/Product/src/main/java/com/sparta/msa_exam/product/ProductService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Product/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/Product/src/main/resources/application.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -68,8 +57,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Record" />
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -128,6 +117,7 @@
     "Spring Boot.OrderApplication (1).executor": "Run",
     "Spring Boot.OrderApplication.executor": "Run",
     "Spring Boot.ProductApplication.executor": "Run",
+    "Spring Boot.ProductApplication: 19094.executor": "Run",
     "deletionFromPopupRequiresConfirmation": "false",
     "git-widget-placeholder": "msa",
     "jdk.selected.JAVA_MODULE": "corretto-17",
@@ -385,7 +375,7 @@
       <workItem from="1723396691172" duration="163000" />
       <workItem from="1723397784025" duration="36000" />
       <workItem from="1723397826821" duration="4245000" />
-      <workItem from="1723402093561" duration="3062000" />
+      <workItem from="1723402093561" duration="4617000" />
     </task>
     <task id="LOCAL-00001" summary="feat: init commit">
       <option name="closed" value="true" />
@@ -499,7 +489,15 @@
       <option name="project" value="LOCAL" />
       <updated>1723400754573</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="feat: 상품 추가, 조회, 주문 추가 전환">
+      <option name="closed" value="true" />
+      <created>1723405346067</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1723405346067</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -544,6 +542,7 @@
     <MESSAGE value="feat: 멀티 모듈 구성" />
     <MESSAGE value="feat: eureka 서버 구성" />
     <MESSAGE value="feat: 멀티모듈 설정 완료, eureka 서버 + 게이트웨이 구성 완료" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: 멀티모듈 설정 완료, eureka 서버 + 게이트웨이 구성 완료" />
+    <MESSAGE value="feat: 상품 추가, 조회, 주문 추가 전환" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: 상품 추가, 조회, 주문 추가 전환" />
   </component>
 </project>
