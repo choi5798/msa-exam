@@ -1,6 +1,7 @@
 package com.sparta.msa_exam.msa_exam.product;
 
 import com.sparta.msa_exam.msa_exam.core.Product;
+import org.springframework.data.domain.Pageable;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
@@ -26,8 +27,8 @@ public class ProductController {
     }
 
     @GetMapping
-    public List<ProductResponse> getProduct() {
-        List<Product> products = productService.getProducts();
+    public List<ProductResponse> getProduct(Pageable pageable) {
+        List<Product> products = productService.getProducts(pageable);
         return products.stream()
                 .map(ProductResponse::new)
                 .toList();
