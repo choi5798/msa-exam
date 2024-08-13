@@ -9,6 +9,11 @@
         <option name="modules">
           <set>
             <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/Auth" />
+            <option value="$PROJECT_DIR$/EurekaServer" />
+            <option value="$PROJECT_DIR$/Gateway" />
+            <option value="$PROJECT_DIR$/Order" />
+            <option value="$PROJECT_DIR$/Product" />
           </set>
         </option>
       </GradleProjectSettings>

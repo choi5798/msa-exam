@@ -8,16 +8,7 @@ eureka:
   client:
     register-with-eureka: false
     service-url:
-<<<<<<< HEAD
-<<<<<<< HEAD
       defaultZone: 'http://localhost:19090/eureka/'
     fetch-registry: false
-=======
-      defaultZone: http://localhost:19090/eureka
->>>>>>> 2ddeedc (feat: eureka 서버 구성)
-=======
-      defaultZone: 'http://localhost:19090/eureka/'
-    fetch-registry: false
->>>>>>> d27549b (feat: 멀티모듈 설정 완료, eureka 서버 + 게이트웨이 구성 완료)
   instance:
     hostname: localhost

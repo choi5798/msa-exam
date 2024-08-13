@@ -6,10 +6,6 @@ spring:
     open-in-view: false
   jackson:
     property-naming-strategy: SNAKE_CASE
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 31ffbe2 (feat: 상품 추가, 조회, 주문 추가 전환)
   application:
     name: product-service
 
@@ -20,11 +16,3 @@ eureka:
   client:
     service-url:
       defaultZone: http://localhost:19090/eureka/
-<<<<<<< HEAD
-=======
-
-server:
-  port: 19093
->>>>>>> a6ea2fd (feat: 멀티 모듈 구성)
-=======
->>>>>>> 31ffbe2 (feat: 상품 추가, 조회, 주문 추가 전환)
