@@ -8,6 +8,8 @@ spring:
     property-naming-strategy: SNAKE_CASE
   application:
     name: product-service
+  profiles:
+    active: dev
 
 server:
   port: 19093

@@ -8,6 +8,8 @@ spring:
     property-naming-strategy: SNAKE_CASE
   application:
     name: order-service
+  profiles:
+    active: dev
 
 
 eureka:
