@@ -29,15 +29,7 @@ public class ProductService {
         return products.getContent();
     }
 
-<<<<<<< HEAD
-<<<<<<< HEAD
     public Boolean containsById(Long productId) {
-=======
-    public boolean containsById(Long productId) {
->>>>>>> 917fac1 (feat: Msa 전환)
-=======
-    public Boolean containsById(Long productId) {
->>>>>>> 31ffbe2 (feat: 상품 추가, 조회, 주문 추가 전환)
         return productRepository.existsById(productId);
     }
 
